@@ -1,0 +1,48 @@
+@import url('https://use.typekit.net/rie3pjv.css');
+.test-container {
+    display: flex;
+    gap: 1px;
+}
+
+.text-test {
+    font-family: acumin-pro-wide, sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 2vh;
+}
+
+.symbol {
+    background: black;
+    width: 7px;
+}
+
+.floor {
+    height: 42.5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+.symbols {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.symbol {
+    width: 5px;
+    height: 33.333vh;
+    background: black;
+}
+
+.symbols-2,
+.symbols-4 {
+    flex-direction: row-reverse;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
