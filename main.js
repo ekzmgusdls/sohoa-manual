@@ -22,7 +22,7 @@ window.addEventListener('mousemove', (e) => {
 
 function makeSymbolRow(selector) {
     const length = 15;
-    const maxWidth = 30;
+    const maxWidth = 12;
     const minWidth = 1;
     const step = (maxWidth - minWidth) / (length - 1);
     const mappingOgArr = [];
